@@ -20,11 +20,11 @@ main (){
 		
 	//starts comparing when there are two elements on the list until the end
 		if (i>=1){
-			if (numbers[i]>numbers[posMayor]){
-				posMayor = i;
+			if (numbers[i]>numbers[posMayor]){     // compares the numbers
+				posMayor = i;                  //moves the pointer
 			}
-			if (numbers[i]<numbers[posMenor]){
-				posMenor= i;
+			if (numbers[i]<numbers[posMenor]){    // compares the numbers
+				posMenor= i;                  //moves the pointer
 			}
 			} 
 		}
